@@ -43,7 +43,7 @@ count_above(mtcars$disp, 149.9)
 
 ## Task-3
 
-Data masking allows you to refer to variables in the "current" data frame (usually supplied in the .data argument), without any other prefix. 
+Masking function occurs when two or more packages contain functions with the same name. R will use the function from the package that was loaded most recently and mask other functions.
 
 ## Task-4
 
