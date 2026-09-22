@@ -13,3 +13,31 @@ for(i in 1:3){
 }
 ```
 
+## Task-2
+
+```{r}
+count_above <- function(vector, cutoff){
+  # create a function named count_above with two inputs: the numeric vector and the cutoff value.
+  count <- 0
+  # initialize and set the value of count to 0.
+  for(i in 1:length(vector)){
+  # check every elements in the given vector  
+    if(vector[i] > cutoff){
+    # check if the element is larger than the cutoff value.
+      count <- count + 1
+      # if it satisfied the condition, count this element into count variable.
+    }
+  }
+  return(count)
+  # return the result
+}
+```
+
+```{r}
+count_above(iris$Sepal.Length, 6)
+```
+
+```{r}
+count_above(mtcars$disp, 150)
+```
+
