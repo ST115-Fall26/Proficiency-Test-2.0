@@ -31,7 +31,6 @@ count_above <- function(vector, cutoff){
   return(count)
   # return the value of the observations.
 }
-mtcars
 ```
 
 ```{r}
