@@ -21,7 +21,7 @@ count_above <- function(vector, cutoff){
   count <- 0
   # initialize and set the value of count to 0.
   for(i in 1:length(vector)){
-  # check every elements in the given vector  
+  # check every elements in the given vector.
     if(vector[i] > cutoff){
     # check if the element is larger than the cutoff value.
       count <- count + 1
@@ -29,8 +29,9 @@ count_above <- function(vector, cutoff){
     }
   }
   return(count)
-  # return the result
+  # return the value of the observations.
 }
+mtcars
 ```
 
 ```{r}
@@ -38,12 +39,12 @@ count_above(iris$Sepal.Length, 6)
 ```
 
 ```{r}
-count_above(mtcars$disp, 150)
+count_above(mtcars$disp, 149.9)
 ```
 
 ## Task-3
 
-
+Data masking allows you to refer to variables in the "current" data frame (usually supplied in the .data argument), without any other prefix. 
 
 ## Task-4
 
