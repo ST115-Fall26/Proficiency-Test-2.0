@@ -41,3 +41,14 @@ count_above(iris$Sepal.Length, 6)
 count_above(mtcars$disp, 150)
 ```
 
+## Task-3
+
+
+
+## Task-4
+
+```{r}
+iris$Sepal.Length[1]
+iris[1, 1]
+```
+It returns the first iris flower's sepal length.
